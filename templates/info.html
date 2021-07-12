@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="container">
+      <p class="title">Emergency Card</p>
+      <p class="info">
+        Have you ever forgotten to wish someone a happy birthday? Maybe you
+        forgot to say happy new year to someone speical. Well fear no more,
+        Emergency Card will solve all of that in a jiffy!
+      </p>
+      <p class="info">Press the button to contunine!</p>
+      <!--<input type="button" value="Press Me!" class="conBtn" onclick="window.location.href='{{ url_for('form')}}'"/>-->
+      <button class="conBtn" onclick="window.location.href='{{url_for('form')}}';">
+        Press me!
+      </button>
+    </div>
+  </body>
+</html>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="container">
+      <p class="title">Emergency Card</p>
+      <form action="/form_input/" method="POST">
+        <div class="inputCon">
+          <label for="fromName">From: </label>
+          <input type="text" name="formName" id="formName" autocomplete="off" required/>
+        </div>
+
+        <div class="inputCon">
+          <label for="toName">To: </label>
+          <input type="text" name="toName" id="toName" autocomplete="off" required/>
+        </div>
+
+        <div>
+          <label for="message">Message: </label>
+          <textarea name="message" id="message" rows="6" required></textarea>
+        </div>
+
+        <div>
+          <label for="holiday">Holiday: </label>
+          <br />
+          <select name="holiday" id="holiday" required>
+            <option value='' hidden selected>Select one...</option>
+            <option value="Birthday">Birthday</option>
+            <option value="Chrismas">Chrismas</option>
+            <option value="Halloween">Halloween</option>
+            <option value="New_Years">New Years</option>
+          </select>
+        </div>
+        <input type="submit" class="conBtn btnCen" />
+      </form>
+    </div>
+{% endblock %}

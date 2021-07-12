@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rye&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 30%;
+  border: 5px dashed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Rye", cursive;
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.info {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  margin-bottom: 49px;
+}
+
+.conBtn {
+  margin-top: 24px;
+  margin-bottom: 35px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form {
+  width: 75%;
+  font-family: "Roboto Slab", serif;
+  text-align: left;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+input {
+  width: 100%;
+}
+
+.inputCon {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  font-family: "Roboto Slab", serif;
+}
+
+select{
+    width: 100%;
+}
