@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url("/static/images/newyear.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 144px;
+  color: #00A982;
+}
+
+.msgName {
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  color: #00A982;
+}
+
+div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 90%;
+}

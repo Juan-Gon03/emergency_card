@@ -1,12 +1,14 @@
-{% extends 'base.html' %}
+{% extends 'baseHoliday.html' %}
 
 {% block head %}
+<title>Happy Birthday!</title>
+<link rel="stylesheet" href="/static/css/bday.css">
 {% endblock %}
 
 {% block body %}
-<p>{{ output_data[0][1] }}</p>
-<p>{{ output_data[0][2] }}</p>
-<p>{{ output_data[0][3] }}</p>
-<p>{{ output_data[0][4] }}</p>
-
+    <div>
+        <p class="heading">Happy Birthday!🥳</p>
+        <p class="msgName">{{ output_data[0][3] }}</p>
+        <p class="msgName">From: {{ output_data[0][1] }}</p>
+    </div>
 {% endblock %}

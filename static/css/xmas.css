@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/static/images/snowman.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Lobster", cursive;
+  font-size: 144px;
+  color: #ffffff;
+}
+
+.msgName {
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.fromname{
+    color: #E80000;
+}
+
+div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 90%;
+}

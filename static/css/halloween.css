@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Creepster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/static/images/halloween.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Creepster", cursive;
+  font-size: 144px;
+  color: #ffffff;
+}
+
+.msgName {
+  font-family: "Arvo", serif;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.fromname {
+  color: #F79500;
+}
+
+div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 90%;
+}
