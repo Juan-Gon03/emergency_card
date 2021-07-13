@@ -9,6 +9,7 @@ body {
   background-image: url("/static/images/bday.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   background-size: 100% 100%;
   text-align: center;
 }
