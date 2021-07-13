@@ -12,6 +12,6 @@ Why only four? Cuz I got lazy. But in the near future there will have many more 
 
 Why does it look crappy on my phone but good on my computer? You may ask, well I once again got lazy. And will add responsivity in the near future. 
 
-Okay but how does it work? Simple, just fill out the form, the form will then do some magic and you'll be redirected to your e-card(emergency card) from there you can copy the link from the search bar and send it to that speical someone! [Here's](https://emergency-card.juangon03.repl.co/) the link to get started!
+Okay but how does it work? Simple, just fill out the form, the form will then do some magic and you'll be redirected to your e-card(emergency card) from there you can copy the link from the search bar and send it to that speical someone! [Here's]() the link to get started!
 
 P.S. This idea was inspired by JacksFilms, "Make a dang valentine"
